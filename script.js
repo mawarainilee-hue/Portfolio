@@ -148,3 +148,4 @@ document.querySelectorAll("section").forEach(section => {
     observer.observe(section);
 
 });
+

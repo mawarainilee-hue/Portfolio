@@ -224,6 +224,35 @@ SKILLS
     margin-bottom:15px;
 }
 
+.skill-card ul{
+
+    list-style:none;
+
+    margin-top:15px;
+
+    text-align:left;
+
+}
+
+.skill-card ul li{
+
+    margin:8px 0;
+
+    font-size:15px;
+
+    color:#555;
+
+}
+
+.skill-card ul li::before{
+
+    content:"✓ ";
+
+    color:#2563eb;
+
+    font-weight:bold;
+
+}
 /* ===========================
 PROJECTS
 =========================== */
@@ -270,6 +299,39 @@ PROJECTS
     margin:5px;
     font-size:14px;
 }
+
+.gallery{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:15px;
+
+    margin-top:20px;
+
+}
+
+.gallery img{
+
+    width:100%;
+
+    height:auto;
+
+    border-radius:10px;
+
+    border:1px solid #ddd;
+
+    transition:0.3s;
+
+}
+
+.gallery img:hover{
+
+    transform:scale(1.03);
+
+}
+
 
 /* ===========================
 EDUCATION
